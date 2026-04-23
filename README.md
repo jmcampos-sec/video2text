@@ -1,4 +1,3 @@
-# video2text
 # 🎬 video2text
 
 > Descarga vídeos desde cualquier URL, extrae el audio y genera una transcripción en texto de forma automática.
