@@ -337,7 +337,8 @@ def transcribir_audio(ruta_audio: str, modelo: str) -> str:
 
     # Realizar la transcripción
     # verbose=True muestra progreso interno de Whisper
-    resultado = model.transcribe(ruta_audio, verbose=True)
+    resultado = model.transcribe(ruta_audio, verbose=False)
+    print("✅  Transcripción completada.")
 
     return resultado["text"]
 
